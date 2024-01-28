@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bn4"
+    android:orientation="vertical">
+
+</LinearLayout>
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFFFFF"
+android:orientation="horizontal"
+android:paddingBottom="5dp"
+android:paddingLeft="10dp"
+android:paddingRight="10dp"
+android:paddingTop="5dp">
+<TextView
+    android:id="@+id/tv_product_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Course"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    android:fontFamily="@font/m"
+    android:layout_margin="20dp"/>
+
+<TextView
+    android:id="@+id/tv_product_description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Credits"
+    android:textSize="20dp"
+    android:fontFamily="@font/m"
+    android:layout_margin="20dp"/>
+</LinearLayout>
